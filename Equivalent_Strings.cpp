@@ -15,9 +15,6 @@ typedef long double ld;
 
 using namespace std;
 
-/* This is Divide and Conquer algorithm
-# The equivalence statement in the question actually is quite similar to the mathematical equivalence
-# 
  
 // This will return Lexicographically minimum string(Sorted by smallest units) of the provided string
 // Size of smallest unit is largest odd number that devide the length of the string
