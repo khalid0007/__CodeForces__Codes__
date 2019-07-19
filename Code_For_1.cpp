@@ -2,7 +2,7 @@
 // Solution: https://codeforces.com/contest/768/submission/57302491
 
 
-// Few things to note here:
+// Few things to be noted in this question:
 // len(n) = 2len(n/2) + 1
 // From induction we can prove: len(n) = 2^(floor(logn) + 1) - 1
 // We can also prove that total number of ones in ultimate list will be equal to n
