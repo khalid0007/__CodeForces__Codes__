@@ -14,11 +14,11 @@ vector_cordinate=[];
 % stores centroid co-ordinates of all 8 octants
 centroid_octant=[];
 % stores all 3 projections of octant
-projections=[]
+projections=[];
 %octant 1
-for  i=1:16,
-    for j=1:i,
-        if bin_img(i, j) == 1,
+for  i=1:16
+    for j=1:i
+        if bin_img(i, j) == 1
             vector_cordinate=[vector_cordinate;[i,j]];
         end
     end
@@ -40,89 +40,152 @@ centroid_octant=[centroid_octant ,mean(vector_coordinate)];
 
 %octant 2
 vector_cordinate=[]; 
-for  i=1:16,
-    for j=i:16,
-        if bin_img(i, j) == 1,
+for  i=1:16
+    for j=i:16
+        if bin_img(i, j) == 1
             vector_cordinate=[vector_cordinate;[i,j]];
         end
     end
 end
 
 centroid_octant=[centroid_octant ,mean(vector_coordinate)];
+
+sort(vector_cordinate);
+
+length=size(vector_cordinate,1);
+
+projections=[projections,abs(vector_cordinate(1,1)-vector_cordinate(len,1))];
+
+projections=[projections,abs(vector_cordinate(1,2)-vector_cordinate(len,2))];
 
 %octant 3
 vector_cordinate=[]; 
-for  i=1:16,
-    for j = 16:16 + i,
-        if bin_img(i, j) == 1,
+for  i=1:16
+    for j = 16:16 + i
+        if bin_img(i, j) == 1
             vector_cordinate=[vector_cordinate;[i,j]];
         end
     end
 end
 
 centroid_octant=[centroid_octant ,mean(vector_coordinate)];
+
+sort(vector_cordinate);
+
+length=size(vector_cordinate,1);
+
+projections=[projections,abs(vector_cordinate(1,1)-vector_cordinate(len,1))];
+
+projections=[projections,abs(vector_cordinate(1,2)-vector_cordinate(len,2))];
+
 
 %octant 4
 vector_cordinate = [];
 
-for  i=1:16,
-    for j=32-i:32,
-        if bin_img(i,j)==1,
+for  i=1:16
+    for j=32-i:32
+        if bin_img(i,j)==1
             vector_cordinate=[vector_cordinate;[i,j]];
         end
     end
 end
 
 centroid_octant=[centroid_octant ,mean(vector_coordinate)];
+
+
+sort(vector_cordinate);
+
+length=size(vector_cordinate,1);
+
+projections=[projections,abs(vector_cordinate(1,1)-vector_cordinate(len,1))];
+
+projections=[projections,abs(vector_cordinate(1,2)-vector_cordinate(len,2))];
+
 %octant 5
 vector_cordinate = [];
 
-for  i=17:32,
-    for j=1:16-i+16,
-        if bin_img(i,j)==1,
+for  i=17:32
+    for j=1:16-i+16
+        if bin_img(i,j)==1
             vector_cordinate=[vector_cordinate;[i,j]];
         end
     end
 end
 
 centroid_octant=[centroid_octant ,mean(vector_coordinate)];
+
+
+sort(vector_cordinate);
+
+length=size(vector_cordinate,1);
+
+projections=[projections,abs(vector_cordinate(1,1)-vector_cordinate(len,1))];
+
+projections=[projections,abs(vector_cordinate(1,2)-vector_cordinate(len,2))];
 
 %octant 6
 vector_cordinate = [];
 
-for  i=17:32,
-    for j=32-i:16,
-        if bin_img(i,j)==1,
+for  i=17:32
+    for j=32-i:16
+        if bin_img(i,j)==1
             vector_cordinate=[vector_cordinate;[i,j]];
         end
     end
 end
 centroid_octant=[centroid_octant ,mean(vector_coordinate)];
+
+
+sort(vector_cordinate);
+
+length=size(vector_cordinate,1);
+
+projections=[projections,abs(vector_cordinate(1,1)-vector_cordinate(len,1))];
+
+projections=[projections,abs(vector_cordinate(1,2)-vector_cordinate(len,2))];
 
 
 %octant 7
 vector_cordinate = [];
 
-for  i=17:32,
-    for j=17:i,
-        if bin_img(i,j)==1,
+for  i=17:32
+    for j=17:i
+        if bin_img(i,j)==1
             vector_cordinate=[vector_cordinate;[i,j]];
         end
     end
 end
 centroid_octant=[centroid_octant ,mean(vector_coordinate)];
+
+
+sort(vector_cordinate);
+
+length=size(vector_cordinate,1);
+
+projections=[projections,abs(vector_cordinate(1,1)-vector_cordinate(len,1))];
+
+projections=[projections,abs(vector_cordinate(1,2)-vector_cordinate(len,2))];
 
 %octant 8
 vector_cordinate = [];
 
-for  i=17:32,
-    for j=i:32,
-        if bin_img(i,j)==1,
+for  i=17:32
+    for j=i:32
+        if bin_img(i,j)==1
             vector_cordinate=[vector_cordinate;[i,j]];
         end
     end
 end
 centroid_octant=[centroid_octant ,mean(vector_coordinate)];
+
+sort(vector_cordinate);
+
+length=size(vector_cordinate,1);
+
+projections=[projections,abs(vector_cordinate(1,1)-vector_cordinate(len,1))];
+
+projections=[projections,abs(vector_cordinate(1,2)-vector_cordinate(len,2))];
+
 
             
 
