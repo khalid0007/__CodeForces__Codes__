@@ -5,5 +5,4 @@
 2. [D. Kefa and Dishes](https://codeforces.com/contest/580/problem/D) , [Solution](https://codeforces.com/contest/1288/submission/85704510)
 
 # Graph
-#      *Topological Sort
-        1. [C. Fox And Names](https://codeforces.com/contest/510/problem/C) , [Solution](https://codeforces.com/contest/510/submission/84512136)
+1. [C. Fox And Names (Topological Sort)](https://codeforces.com/contest/510/problem/C) , [Solution](https://codeforces.com/contest/510/submission/84512136)
