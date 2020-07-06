@@ -22,8 +22,7 @@
 7. [B. New Year Permutation](https://codeforces.com/contest/500/problem/B) , [Solution](https://codeforces.com/contest/500/submission/84580195)
 8. [D. Secret Passwords](https://codeforces.com/contest/1263/problem/D) , [Solution](https://codeforces.com/contest/1263/submission/84573098)
 9. [C. Edgy Trees](https://codeforces.com/contest/1139/problem/C) , [Solution](https://codeforces.com/contest/1139/submission/84515522)
-10. [C. Fox And Names](https://codeforces.com/contest/510/problem/C) , [Solution](https://codeforces.com/contest/510/submission/84512136)
-11. [D. Valid BFS?](https://codeforces.com/contest/1037/problem/D) , [Solution](https://codeforces.com/contest/1037/submission/83175868)
+10. [D. Valid BFS?](https://codeforces.com/contest/1037/problem/D) , [Solution](https://codeforces.com/contest/1037/submission/83175868)
 
 # Dijkstra
 1. [D. Edge Deletion](https://codeforces.com/contest/1076/problem/D) , [Solution](https://codeforces.com/contest/1076/submission/86136006)
