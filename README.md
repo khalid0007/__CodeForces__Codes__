@@ -23,4 +23,14 @@
 8. [D. Secret Passwords](https://codeforces.com/contest/1263/problem/D) , [Solution](https://codeforces.com/contest/1263/submission/84573098)
 9. [C. Edgy Trees](https://codeforces.com/contest/1139/problem/C) , [Solution](https://codeforces.com/contest/1139/submission/84515522)
 10. [C. Fox And Names](https://codeforces.com/contest/510/problem/C) , [Solution](https://codeforces.com/contest/510/submission/84512136)
+11. [D. Valid BFS?](https://codeforces.com/contest/1037/problem/D) , [Solution](https://codeforces.com/contest/1037/submission/83175868)
+
+# Dijkstra
+1. [D. Edge Deletion](https://codeforces.com/contest/1076/problem/D) , [Solution](https://codeforces.com/contest/1076/submission/86136006)
+2. [C. Dijkstra?](https://codeforces.com/contest/20/problem/C) , [Solution](https://codeforces.com/contest/20/submission/82710756)
+
+
+# Floyd-Warshal
+1. [D. AlgoRace](https://codeforces.com/contest/189/problem/D) , [Solution](https://codeforces.com/contest/189/submission/83313382)
+
 
