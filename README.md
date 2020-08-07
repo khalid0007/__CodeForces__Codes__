@@ -10,7 +10,8 @@
 3. [D. Bicolorings](https://codeforces.com/problemset/problem/1051/D) , [Solution](https://codeforces.com/contest/1051/submission/85815569)
 4. [D. Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D) , [Solution](https://codeforces.com/contest/1285/submission/85952562)
 5. [D. Fox And Jumping](https://codeforces.com/contest/510/problem/D) , [Solution](https://codeforces.com/contest/510/submission/86063508)
-
+# DIGIT DP
+1. [C. Classy Numbers](https://codeforces.com/contest/1036/problem/C) , [Solution](https://codeforces.com/contest/1036/submission/89207979)
 
 # Graph
 1. [C. Fox And Names (Topological Sort)](https://codeforces.com/contest/510/problem/C) , [Solution](https://codeforces.com/contest/510/submission/84512136)
